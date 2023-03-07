@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="/bootstrap\bootstrap-5.2.0-dist/css/bootstrap.min.css">
+  <script src="/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="row">
+    <header style="background-color: #004aad; color: #ffffff">
+      <div class="col-sm-1 ms-2 mt-2"><img src="/images/TZT logo dark.png" height="90px" alt="Logo"
+          style="float: left;"></div>
+      <div class="display-1 col-sm-12 text-center">Time Zone Tech</div>
+    </header>
+  </div>
+
+  <!-- Navigation Bar -->
+  <div class="row">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ====== Contact Details ====== -->
+    <section class="ps-3">
+      <div id="contact_heading" onclick="changeFont()" class="h2">Contact Us</div>
+      <div id="contact_details" onmouseover="changeAlign()" class="p">
+        <img src="/images/maps-and-flags.png" height="25px" alt="" class="pe-2"><strong>Address:</strong> Shop 10, Green Gables Shopping Centre, 376 Beach Road, Mairangi Bay, Auckland 0630,
+        New Zealand<br><br>
+        <img src="/images/phone-call.png" height="25px" alt="" class="pe-2"><strong>Number:</strong> +64 9 478 9997<br><br>
+        <img src="/images/email.png" height="25px" alt="" class="pe-2"><strong>Email:</strong> info@captivateinteriors.co.nz
+      </div>
+    </section>
+
+    <!-- ====== Form ====== -->
+    <section class="ps-3"> 
+      <div class="row">
+        <div class="col mt-3 mb-3 pb-3">
+          <form>
+            <!-- Name -->
+            <div class="mb-3 mt-3">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+            </div>
+            <!-- Email -->
+            <div class="mb-3 mt-3">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <!-- Subject -->
+            <div class="mb-3 mt-3">
+              <label for="subject">Subject:</label>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Enter subject">
+            </div>
+            <!-- Message -->
+            <div class="mb-3 mt-3">
+              <label for="message">Message:</label>
+              <input type="text" name="message" class="form-control" id="msg" placeholder="Leave your message">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col"></div>
+
+        <div class="col"></div>
+      </div>
+    </section>
+
+
+  <!-- Footer -->
+  <div class="text-center bg-dark pt-2 pb-2">
+    <footer>
+      <a href="https://www.facebook.com"><img src="/images/facebook.png" alt="" height="35px"></a>
+      <a href="https://www.instagram.com"><img src="/images/instagram.png" alt="" height="35px"></a>
+      <a href="https://nz.linkedin.com"><img src="/images/linkedin.png" alt="" height="35px"></a>
+      <a href="https://twitter.com/home?lang=en"><img src="/images/twitter.png" alt="" height="35px"></a>
+    </footer>
+
+
+  </div>
+
+</body>
+
+</html>
